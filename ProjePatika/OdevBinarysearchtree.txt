@@ -1,0 +1,20 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree görünümü
+            7
+           /  \
+         5     8
+       /  /      \
+      1    3      9
+      \ \   /  \    
+      4  2   0  6    
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamaları;
+Dizinin ilk verisi root olarak seçilir ve dizindeki veriler sırasıyla roottan büyük ise sağa küçükler ise sola ayrılır.
+Bu Dizinimizde Rootumuz 7 dir.
+[5] roottan küçük olduğu için sola yerlerşir.
+[1]] önce root ile kıyaslanır. Rootun ikili bağlantısı tamamlandığı için sonraki veri geçici root olmuştur ve kendisinden küçük olduğundan sola yerleşir.
+[8] var.Roottan büyük olduğu için sağa yerleşir.
+[3] roottan küçük ve rootun iki kolu da dolu böylece [5] root görevi gördü.Kendisinden küçük olan [3] soluna geçti.
+[6] Roottan küçük, [3] ten büyük olduğundan sağına yerleşti.
+[0] ise Roottan küçük, [3] ten küçük old.dan soluna konumlandı.
+[9] Roottan büyük roottan sonraki veriden de büyük olunca onun sağına konumlandı.
+[4] Roottan küçük [5] tende küçük ikili dal tamamlanmayan eleman [1] ve ondan büyük olup sağ tarafına yerleşir.
+[2] Roottan küçük rootun solundaki elemanlardan dal oluşturabileceği [1] den ise büyük olduğu için sağına konumlanır.

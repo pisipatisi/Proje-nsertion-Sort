@@ -1,0 +1,2 @@
+## Readme 
+*Neden olmuyor yahu
